@@ -184,7 +184,10 @@ ul {
     width: 270px;
 }
 
-.feature-list-item + .feature-list-item {
+.feature-list-item + .feature-list-item,
+.activity-list-item + .activity-list-item,
+.team-list-item + .team-list-item,
+.list-customers-item + .list-customers-item {
     margin-left: 30px
 }
 
@@ -208,7 +211,16 @@ ul {
 
 /* activity */
 
+.activity-list {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .activity-list .example {
+    margin-top: 0;
+    margin-bottom: 0;
+
     background-color: dimgray;
     color: var(--white-color);
     font-weight: 700;
@@ -218,6 +230,12 @@ ul {
 }
 
 /* team */
+
+.team-list {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
 .team-list .title {
     color: var(--title-text-color);
@@ -245,6 +263,14 @@ ul {
 .links-list .social-link:hover,
 .links-list .social-link:focus {
     color: var(--accent-color);
+}
+
+/* customers */
+
+.list-customers {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* footer */
