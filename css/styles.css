@@ -4,7 +4,8 @@
 /* акцент #2196F3 */
 /* черный #000000 */
 /* дополнительный цвет rgba(255, 255, 255, 0.6) */
-/* дополнительный цвет2 rgba(255, 255, 255, 0.4)*/
+/* дополнительный цвет2 rgba(255, 255, 255, 0.4) */
+/* дополнительный цвет3 #F5F4FA */
 
 :root {
     --primary-text-color: #757575;
@@ -14,6 +15,7 @@
     --black-color: #000000;
     --complementary-color: rgba(255, 255, 255, 0.6);
     --complementary-color2: rgba(255, 255, 255, 0.4);
+    --complementary-color3: #F5F4FA;
 }
 
 /* Стилизация студии*/
@@ -255,14 +257,14 @@ ul {
 /* team */
 
 .team {
-    background: #F5F4FA;
+    background: var(--complementary-color3);
 }
 
 .team-list {
     display: flex;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 0;
+    padding-bottom: 0;
 }
 
 .team-list .title {
@@ -379,6 +381,7 @@ ul {
 }
 
 /* links-list-2 */
+
 .container-invitation {
     margin-top: 57px;
     margin-bottom: 56px;
@@ -426,8 +429,9 @@ ul {
 }
 
 .copyright {
-    margin-top: 0;
+    margin-top: 18px;
     margin-bottom: 0;
+    padding-bottom: 21px;
 
     color: var(--complementary-color2);
     font-size: 12px;
@@ -521,8 +525,8 @@ ul {
 }
 
 .works-list .title-2 {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 4px;
 
     color: var(--title-text-color);
     font-weight: 700;
@@ -533,7 +537,7 @@ ul {
 
 .works-list .description {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 
     color: var(--primary-text-color);
     font-size: 16px;
